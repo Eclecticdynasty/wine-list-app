@@ -14,6 +14,9 @@ h1 {
 .white-wines h2 {
   color: hsla(65, 100%, 80%, 1);
 }
+.rose-wines h2 {
+  color: hsla(324, 100%, 75%, 1);
+}
 
 #pinot {
   color: hsla(336, 91%, 23%, 0.84);
