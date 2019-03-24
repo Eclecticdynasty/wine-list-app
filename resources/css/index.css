@@ -6,3 +6,14 @@
 h1 {
   color: SeaGreen;
 }
+.red-wines h2 {
+  color: hsla(360, 91%, 20%, 1);
+}
+
+.white-wines h2 {
+  color: LightGreen;
+}
+
+#pinot {
+  color: hsla(336, 91%, 24%, 1);
+}
