@@ -1,5 +1,6 @@
 * {
   font-family: Helvetica, sans-serif;
+  background-color: hsla(0, 0%, 31%, 1);
 
 }
 
@@ -11,9 +12,9 @@ h1 {
 }
 
 .white-wines h2 {
-  color: LightGreen;
+  color: hsla(65, 100%, 80%, 1);
 }
 
 #pinot {
-  color: hsla(336, 91%, 24%, 1);
+  color: hsla(336, 91%, 23%, 0.84);
 }
