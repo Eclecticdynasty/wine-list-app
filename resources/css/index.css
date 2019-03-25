@@ -3,6 +3,12 @@
   
 
 }
+img {
+  height: auto;
+  width: auto;
+  max-width: 300px;
+  max-height: 300px;
+}
 
 h1 {
   color: SeaGreen;
@@ -21,3 +27,4 @@ h1 {
 #pinot {
   color: hsla(336, 91%, 23%, 0.84);
 }
+
