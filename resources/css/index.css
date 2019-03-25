@@ -1,6 +1,6 @@
 * {
   font-family: Helvetica, sans-serif;
-  background-color: hsla(0, 0%, 31%, 1);
+  
 
 }
 
@@ -12,7 +12,7 @@ h1 {
 }
 
 .white-wines h2 {
-  color: hsla(65, 100%, 80%, 1);
+  color: hsla(57, 100%, 59%, 1);
 }
 .rose-wines h2 {
   color: hsla(324, 100%, 75%, 1);
