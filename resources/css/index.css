@@ -13,18 +13,61 @@ img {
 h1 {
   color: SeaGreen;
 }
+
 .red-wines h2 {
   color: hsla(360, 91%, 20%, 1);
 }
 
 .white-wines h2 {
-  color: hsla(57, 100%, 59%, 1);
+  color: hsla(58, 90%, 19%, 1);
 }
+
 .rose-wines h2 {
-  color: hsla(324, 100%, 75%, 1);
+  color: hsla(336, 90%, 25%, 1);
 }
 
 #pinot {
   color: hsla(336, 91%, 23%, 0.84);
 }
+
+#merlot {
+  color: hsla(4, 90%, 19%, 1);
+}
+
+#zin {
+  color: hsla(332, 90%, 11%, 1);
+}
+
+#malbec {
+  color: hsla(284, 90%, 8%, 1);
+}
+
+#pinot-g {
+  color: hsla(50, 90%, 25%, 1);
+}
+
+#ries {
+  color: hsla(52, 90%, 32%, 1)
+}
+
+#chardon {
+  color: hsla(52, 90%, 34%, 1);
+}
+
+#sauv {
+  color: hsla(55, 90%, 34%, 1);
+}
+
+#sang {
+  color: hsla(355, 76%, 56%, 1);
+}
+
+#grena {
+  color: hsla(355, 75%, 60%, 1);
+}
+
+
+
+
+
 
