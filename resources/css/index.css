@@ -13,7 +13,7 @@ img {
 h1 {
   color: SeaGreen;
 }
-
+/*Wine Type Colors*/
 .red-wines h2 {
   color: hsla(360, 91%, 20%, 1);
 }
@@ -25,6 +25,8 @@ h1 {
 .rose-wines h2 {
   color: hsla(336, 90%, 25%, 1);
 }
+
+/*Wine Title Colors*/
 
 #pinot {
   color: hsla(336, 91%, 23%, 0.84);
