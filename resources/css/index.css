@@ -1,8 +1,9 @@
-* {
+body {
   font-family: Helvetica, sans-serif;
-  
+  background-color: hsla(0, 0%, 82%, 1);
 
 }
+
 img {
   height: auto;
   width: auto;
@@ -10,9 +11,12 @@ img {
   max-height: 300px;
 }
 
-h1 {
+div#intro {
   color: SeaGreen;
+  text-align: center;
 }
+
+
 /*Wine Type Colors*/
 .red-wines h2 {
   color: hsla(360, 91%, 20%, 1);
