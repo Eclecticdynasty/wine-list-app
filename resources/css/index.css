@@ -16,6 +16,10 @@ div#intro {
   text-align: center;
 }
 
+div#taste {
+  color: blue;
+}
+
 
 /*Wine Type Colors*/
 .red-wines h2 {
