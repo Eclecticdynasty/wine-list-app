@@ -4,13 +4,19 @@ body {
 
 }
 
+.header {
+  background-color: hsla(0, 0%, 89%, 1);
+  width: 100%;
+  
+}
+
 nav {
   margin: 0;
-  padding: 20px 0;
+  padding: 10px;
 }
 
 .navbar-brand {
-  color: black;
+  color: green;
 }
 
 
@@ -22,6 +28,7 @@ img {
 div#intro {
   color: SeaGreen;
   text-align: center;
+  padding: 15px;
 }
 
 
