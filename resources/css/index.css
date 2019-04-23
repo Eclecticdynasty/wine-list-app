@@ -4,6 +4,15 @@ body {
 
 }
 
+nav {
+  margin: 0;
+  padding: 20px 0;
+}
+
+.navbar-brand {
+  color: black;
+}
+
 
 img {
   max-width: 250px;
