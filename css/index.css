@@ -3,6 +3,9 @@ body {
   background-color: hsla(0, 0%, 82%, 1);
 
 }
+.hide {
+  display: none; 
+}
 
 #more-info {
   margin: 0 80px;
