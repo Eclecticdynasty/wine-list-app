@@ -13,13 +13,14 @@ body {
 .row {
   margin: 15px;
 }
-  
 
-
-nav {
+.nav-menu {
   background-color: hsla(0, 0%, 92%, 1);
   padding: 10px;
 }
+.nav-menu .container ul {
+      list-style: none; 
+    }
 
 .navbar-brand {
   color: green;
