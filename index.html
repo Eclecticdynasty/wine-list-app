@@ -11,15 +11,32 @@
 
 <body>
 
-
-  <div class="header">
-    <nav class="navbar navbar-expand-md">
-      <a class="navbar-brand" href="#">Home</a>
-      <a class="navbar-brand" href="contact.html">Contact</a>
-      <a class="navbar-brand" href="recommendations.html">Reccomendations</a>
-      
-    </nav>
+<!-- Navigation -->
+<nav class="navbar navbar-expand-md">
+  <div class="container">
+      <div>
+      <span class="menu-button">Menu</span>
+      <span class="contact-button">Contact</span>
+      <span class="recommend-button">Reccomendations</span>
+      </div>
   </div>
+</nav>
+
+<!-- Navigation Menu -->
+<div class="nav-menu hide" id="nav-dropdown" style="display: none;">
+  <div class="container">
+    <ul>
+      <li>Red Wines</li>
+    </ul>
+    <ul>
+      <li>Rose Wines</li>
+    </ul>
+    <ul>
+      <li>White Wines</li>
+    </ul>
+    
+  </div>
+</div>
 
   <div id="intro">
     <h1>Wine Time</h1>
@@ -42,9 +59,9 @@
           <div class="col-xs-12">
             <h3 id="pinot" class="red-wine">Pinot Noir</h3>
             <img src="./images/pinot-noir-wine.jpeg">
-            <p class="desc-pinot ">Pinot noir is a red wine grape variety of the species Vitis vinifera. The name may also refer to wines created predominantly from pinot noir grapes.</p> 
+            <p class="desc-pinot" style="display: none;">Pinot noir is a red wine grape variety of the species Vitis vinifera. The name may also refer to wines created predominantly from pinot noir grapes.</p> 
             <div class="more-details-button pinot-button">
-              <button type="button" class="btn-btn-light">More Info</button>
+              <button type="button" class="btn-btn-light" id="more-info">More Info</button>
             </div>
           </div>
         </div>

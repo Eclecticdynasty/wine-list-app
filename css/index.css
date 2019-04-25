@@ -4,11 +4,11 @@ body {
 
 }
 
-.header {
-  background-color: hsla(0, 0%, 89%, 1);
-  width: 100%;
-  
+#more-info {
+  margin: 0 80px;
 }
+  
+
 
 nav {
   margin: 0;
