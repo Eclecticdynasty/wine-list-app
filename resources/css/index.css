@@ -21,6 +21,10 @@ img {
   display: none; 
 }
 
+.wine-heading {
+  text-align: center;
+}
+
 
 
 div#intro {
@@ -44,9 +48,7 @@ div#intro {
 
 /* Pinot Noir page */
 
-.noir {
-  text-align: center;
-}
+
 
 
 /*Wine Type Colors*/
