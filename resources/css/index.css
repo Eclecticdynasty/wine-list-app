@@ -46,7 +46,14 @@ div#intro {
   color: green;
 }
 
-/* Pinot Noir page */
+/* Zinfandel page */
+.zin-heading {
+  text-align: center;
+}
+
+#zin-margin {
+  margin: 15px;
+}
 
 
 
