@@ -42,5 +42,103 @@ $(document).ready(() => {
     $('#nav-dropdown').slideToggle('slow');
   })
 
+
+  // Wine reccomendations
+
+$(function() {
+
+  var recommendations = {
+    reds: [{
+      wineType: 'Pinot Noir',
+      mouthFeel: 'Dry',
+      body: 'Medium',
+      tanninLevel: 'Medium-Low',
+      abv: 12
+    },
+    {
+      wineType: 'Zinfandel',
+      mouthFeel: 'Dry',
+      body: 'Medium-Full',
+      tanninLevel: 'Medium-High',
+      abv: 16
+    },
+    {
+      wineType: 'Merlot',
+      mouthFeel: 'Very-Dry',
+      body: 'Medium-Full',
+      tanninLevel: 'Medium-High',
+      abv: 14
+    },
+    {
+      wineType: 'Malbec',
+      mouthFeel: 'Dry',
+      body: 'Full',
+      tanninLevel: 'Medium',
+      abv: 14
+    }],
+    whites: [{
+      wineType: 'Pinot Grigio',
+      mouthFeel: 'Dry',
+      body: 'Medium-Light',
+      tanninLevel: 'Low',
+      abv: 12
+    },
+    {
+      wineType: 'Riesling',
+      mouthFeel: 'Off-Dry',
+      body: 'Light',
+      tanninLevel: 'Low',
+      abv: 9
+    },
+    {
+      wineType: 'Chardonnay',
+      mouthFeel: 'Dry',
+      body: 'Medium',
+      tanninLevel: 'Low',
+      abv: 14
+    },
+    {
+      wineType: 'Sauvignon Blanc',
+      mouthFeel: 'Dry',
+      body: 'Medium-Light',
+      tanninLevel: 'Low',
+      abv: 12
+    }],
+    rose: [{
+      wineType: 'Sangiovese Rosé',
+      mouthFeel: 'Dry',
+      body: 'Medium-Light',
+      tanninLevel: 'None',
+      abv: 12
+    },
+    {
+      wineType: 'Grenache',
+      mouthFeel: 'Dry',
+      body: 'Medium-Light',
+      tanninLevel: 'None',
+      abv: 12
+    }]
+  };
+
+  //filter function
+  function redWineReccomend(wine) {
+    return (wine.reds.abv >= 12);
+  };
+
+  var results = [];
+  results = recommendations.filter(redWineReccomend());
+
+  for (var i = 0; i < results.length; i++) {
+    var wine = results[i];
+    var $rec = $('<div></div>');
+    $rec.append($('<p></p>')).text((wine.reds.wineType));
+    $('.red-reccomend').append( $rec );
+  }
+
+
+
+
+});
+
 }); 
   
