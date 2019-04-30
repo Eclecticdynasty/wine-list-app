@@ -121,8 +121,8 @@ $(function() {
   };
 
   //filter function
-  function redWineReccomend(wine) {
-    return (wine.reds.abv >= 12);
+  function redWineReccomend(recommendations) {
+    return (recommendations.reds[0].abv >= 12);
   };
 
   var results = [];
@@ -131,7 +131,7 @@ $(function() {
   for (var i = 0; i < results.length; i++) {
     var wine = results[i];
     var $rec = $('<div></div>');
-    $rec.append($('<p></p>')).text((wine.reds.wineType));
+    $rec.append($('<p></p>')).text((wine.reds[0].wineType));
     $('.red-reccomend').append( $rec );
   }
 
