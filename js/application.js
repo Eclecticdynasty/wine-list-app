@@ -48,7 +48,7 @@ $(document).ready(() => {
 $(function() {
 
   var recommendations = {
-    reds: [{
+    reds: {
       wineType: 'Pinot Noir',
       mouthFeel: 'Dry',
       body: 'Medium',
@@ -75,54 +75,12 @@ $(function() {
       body: 'Full',
       tanninLevel: 'Medium',
       abv: 14
-    }],
-    whites: [{
-      wineType: 'Pinot Grigio',
-      mouthFeel: 'Dry',
-      body: 'Medium-Light',
-      tanninLevel: 'Low',
-      abv: 12
-    },
-    {
-      wineType: 'Riesling',
-      mouthFeel: 'Off-Dry',
-      body: 'Light',
-      tanninLevel: 'Low',
-      abv: 9
-    },
-    {
-      wineType: 'Chardonnay',
-      mouthFeel: 'Dry',
-      body: 'Medium',
-      tanninLevel: 'Low',
-      abv: 14
-    },
-    {
-      wineType: 'Sauvignon Blanc',
-      mouthFeel: 'Dry',
-      body: 'Medium-Light',
-      tanninLevel: 'Low',
-      abv: 12
-    }],
-    rose: [{
-      wineType: 'Sangiovese Rosé',
-      mouthFeel: 'Dry',
-      body: 'Medium-Light',
-      tanninLevel: 'None',
-      abv: 12
-    },
-    {
-      wineType: 'Grenache',
-      mouthFeel: 'Dry',
-      body: 'Medium-Light',
-      tanninLevel: 'None',
-      abv: 12
-    }]
+    }, 
   };
 
   //filter function
   function redWineReccomend(recommendations) {
-    return (recommendations.reds[0].abv >= 12);
+    return (recommendations.reds.abv >= 12);
   };
 
   var results = [];
