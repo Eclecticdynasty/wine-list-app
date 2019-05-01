@@ -47,53 +47,7 @@ $(document).ready(() => {
 
 $(function() {
 
-  var recommendations = {
-    reds: {
-      wineType: 'Pinot Noir',
-      mouthFeel: 'Dry',
-      body: 'Medium',
-      tanninLevel: 'Medium-Low',
-      abv: 12
-    },
-    {
-      wineType: 'Zinfandel',
-      mouthFeel: 'Dry',
-      body: 'Medium-Full',
-      tanninLevel: 'Medium-High',
-      abv: 16
-    },
-    {
-      wineType: 'Merlot',
-      mouthFeel: 'Very-Dry',
-      body: 'Medium-Full',
-      tanninLevel: 'Medium-High',
-      abv: 14
-    },
-    {
-      wineType: 'Malbec',
-      mouthFeel: 'Dry',
-      body: 'Full',
-      tanninLevel: 'Medium',
-      abv: 14
-    }, 
-  };
-
-  //filter function
-  function redWineReccomend(recommendations) {
-    return (recommendations.reds.abv >= 12);
-  };
-
-  var results = [];
-  results = recommendations.filter(redWineReccomend());
-
-  for (var i = 0; i < results.length; i++) {
-    var wine = results[i];
-    var $rec = $('<div></div>');
-    $rec.append($('<p></p>')).text((wine.reds[0].wineType));
-    $('.red-reccomend').append( $rec );
-  }
-
-
+  
 
 
 });
