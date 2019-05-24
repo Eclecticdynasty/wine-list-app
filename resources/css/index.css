@@ -8,6 +8,10 @@ img {
   max-height: 250px;
 }
 
+details {
+  cursor: pointer;
+}
+
 
 #more-info {
   margin: 0 80px;
@@ -38,6 +42,7 @@ div#intro {
   background-color: hsla(0, 0%, 92%, 1);
   padding: 10px;
 }
+
 .nav-menu .container ul {
       list-style: none; 
     }
